@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+padding: 0;
+margin:0;
+}
+body,html{
+height:100%;
+width:100%;
+}
+.main{
+    background-color: rgb(142, 206, 142);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerbox{
+    background-color:aliceblue ;
+ height: 60%;
+ width: 60%;
+ border-radius: 5px;
+ border: 2px solid rgb(93, 191, 93);
+ 
+}
+.topboxpart{
+    width: 100%;
+    background-color: rgb(136, 226, 136);
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.space{
+    background-color: white;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    font-weight: 700;
+    font-size: 25px ;
+}
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+}
+.lowbox{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-wrap: wrap;
+  height: 80%;
+  width: 100%;
+    background-color: pink;
+   
+}
+.circleno{
+    background-color: rgb(56, 125, 56);
+    color: aliceblue;
+
+    height: 30px;
+    width: 25px;
+   margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+:hover.circleno{
+    background-color: rgb(72, 112, 72);
+    border: 2px solid green;
+    cursor: pointer;
+    
+}
